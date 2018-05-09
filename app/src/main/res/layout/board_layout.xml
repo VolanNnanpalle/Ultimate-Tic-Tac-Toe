@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3"
+    android:id="@+id/board_layout"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/board_title"
+        android:text="@string/board_layout_title"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:textSize="80dp"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15sp"
+        android:layout_margin="15sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20sp"
+            android:layout_margin="5sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button1"
+            android:onClick="move"
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button2"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button3"
+            android:onClick="move"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25sp"
+            android:layout_margin="25sp" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button4"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button5"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button6"
+            android:onClick="move"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25sp"
+            android:layout_margin="25sp" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button7"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button8"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button9"
+            android:onClick="move"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20sp"
+            android:layout_margin="5sp" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:onClick="move" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:onClick="move" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:onClick="move" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25sp"
+            android:layout_margin="25sp" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:onClick="move" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:onClick="move" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:onClick="move" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25sp"
+            android:layout_margin="25sp" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:onClick="move" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:onClick="move" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:onClick="move" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20sp"
+            android:layout_margin="5sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button19"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button20"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button21"
+            android:onClick="move"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25sp"
+            android:layout_margin="25sp" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button22"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button23"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button24"
+            android:onClick="move"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25sp"
+            android:layout_margin="25sp" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button25"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button26"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button27"
+            android:onClick="move"/>
+
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10sp"
+        android:layout_margin="10sp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20sp"
+            android:layout_margin="5sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button28"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button29"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button30"
+            android:onClick="move"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25sp"
+            android:layout_margin="25sp" />
+
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button31"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button32"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button33"
+            android:onClick="move"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25sp"
+            android:layout_margin="25sp" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button34"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button35"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button36"
+            android:onClick="move"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20sp"
+            android:layout_margin="5sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button37"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button38"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button39"
+            android:onClick="move"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25sp"
+            android:layout_margin="25sp" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button40"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button41"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button42"
+            android:onClick="move"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25sp"
+            android:layout_margin="25sp" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button43"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button44"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button45"
+            android:onClick="move"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20sp"
+            android:layout_margin="5sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button46"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button47"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button48"
+            android:onClick="move"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25sp"
+            android:layout_margin="25sp" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button49"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button50"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button51"
+            android:onClick="move"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25sp"
+            android:layout_margin="25sp" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button52"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button53"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button54"
+            android:onClick="move"/>
+
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10sp"
+        android:layout_margin="10sp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20sp"
+            android:layout_margin="5sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button55"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button56"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button57"
+            android:onClick="move"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25sp"
+            android:layout_margin="25sp" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button58"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button59"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button60"
+            android:onClick="move"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25sp"
+            android:layout_margin="25sp" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button61"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button62"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button63"
+            android:onClick="move"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20sp"
+            android:layout_margin="5sp"
+            />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button64"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button65"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button66"
+            android:onClick="move"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25sp"
+            android:layout_margin="25sp" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button67"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button68"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button69"
+            android:onClick="move"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25sp"
+            android:layout_margin="25sp" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button70"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button71"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button72"
+            android:onClick="move"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20sp"
+            android:layout_margin="5sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button73"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button74"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button75"
+            android:onClick="move"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25sp"
+            android:layout_margin="25sp" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button76"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button77"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button78"
+            android:onClick="move"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25sp"
+            android:layout_margin="25sp" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button79"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button80"
+            android:onClick="move"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_margin="3sp" />
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:id="@+id/button81"
+            android:onClick="move"/>
+
+    </LinearLayout>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20sp"
+        android:layout_margin="20sp" />
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="200sp"
+        android:layout_height="70sp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:text="@string/home_text"
+        android:onClick="home"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5sp"
+        android:layout_margin="5sp" />
+    <Button
+        android:id="@+id/newGame"
+        android:layout_width="200sp"
+        android:layout_height="70sp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:text="@string/new_game_text"
+        android:onClick="newGame"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/winner"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:textColor="#0ade38"
+        android:textSize="60dp"
+        android:visibility="invisible"/>
+
+
+</LinearLayout>

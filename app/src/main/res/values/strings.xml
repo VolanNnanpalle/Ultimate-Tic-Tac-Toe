@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UltimateTicTacToe</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_message">Welcome to Ultimate Tic Tac Toe</string>
+    <string name="two_player">PLAYER VS. PLAYER</string>
+    <string name="board_layout_title">Ultimate Tic Tac Toe</string>
+    <string name="winner_output">Winner!!!!</string>
+    <string name="home_text">Home</string>
+    <string name="new_game_text">New Game</string>
+</resources>

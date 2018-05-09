@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="buttonFocus">#ffe920</color>
+    <color name="buttonDefault">#122eb7</color>
+    <color name="xColor">#f90800</color>
+    <color name="oColor">#3cff00</color>
+    <color name="player1Win">#ff0004</color>
+    <color name="player2Win">#42f4bf</color>
+</resources>
